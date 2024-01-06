@@ -33,6 +33,9 @@ typedef struct instruction_s
 
 /* PROTOTYPES */
 
-void nop(stack_t **st, unsigned int newl);
+void push(stack_t **st, unsigned int newl);
+void pall(stack_t **st, unsigned int newl);
+
+void nop(stack_t **st, unsigned int newl); 
 
 #endif
