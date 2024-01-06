@@ -31,11 +31,20 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/* LIBRARIES */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <stdbool.h>
+}
 /* PROTOTYPES */
 
 void push(stack_t **st, unsigned int newl);
 void pall(stack_t **st, unsigned int newl);
 
-void nop(stack_t **st, unsigned int newl); 
+void nop(stack_t **st, unsigned int newl);
 
 #endif
